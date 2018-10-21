@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Personal Portfolio Website",
   "main": "index.js",
+  "homepage": "https://kjh5467.github.io",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "master -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/kjh5467/kjh5467.github.io#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }
