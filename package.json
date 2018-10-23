@@ -5,8 +5,7 @@
   "main": "index.js",
   "homepage": "https://kjh5467.github.io",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "master -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
