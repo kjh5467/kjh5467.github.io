@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://github.com/kjh5467/kjh5467.github.io",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjh5467/kjh5467.github.io.git"
+  },
+  "author": "Kody Hogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjh5467/kjh5467.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.3"
+  }
+}
